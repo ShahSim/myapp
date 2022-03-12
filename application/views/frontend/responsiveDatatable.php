@@ -47,7 +47,7 @@
                                   }
                                   ?>
                                   <td><button type="button" value="<?= $key->id ?>" class="btn btn-sm btn-icon btn-secondary edit-modal" data-toggle="modal" data-target="#editeModal"><i class="fa fa-pencil-alt"></i> <span class="sr-only">Edit</span></button></td>
-                                  <td><button type="button" value="<?= $key->id ?>" class="btn btn-danger btn-sm float-right confirm-delete">Delete</button></td>
+                                  <td><button type="button" value="<?= $key->id ?>" class="btn btn-sm btn-icon btn-secondary confirm-delete">Delete</button></td>
                               </tr>
                           <?php } ?>
                       </tbody>
@@ -70,3 +70,6 @@
               <?php $this->load->view('frontend\modal_create_edit.php') ?>
 
               <?php $this->load->view('frontend\modal_edit.php') ?>
+
+
+              
